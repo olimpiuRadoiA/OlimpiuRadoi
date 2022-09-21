@@ -17,7 +17,7 @@ while i<n:
         
         poz = i-1
         for j in range (n, poz, -1):
-            arr[j] = arr[j+1]
+            arr[j] = arr[j-1]
         
         arr[poz] = sqrt(arr[i])
         n = n+1
