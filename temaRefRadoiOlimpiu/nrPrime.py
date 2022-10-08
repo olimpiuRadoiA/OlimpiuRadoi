@@ -12,7 +12,8 @@ for i in range (0,n):
 for i in range (0,n):
     prim = True
     d = 2
-    while d<=int(arr[i]/2) and prim:
+    x = int(arr[i]/2)
+    while d<=x and prim:
         if arr[i] % d == 0:
             prim = False
         d = d+1
